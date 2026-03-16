@@ -89,8 +89,13 @@ Have a look at the slide *The lifecycle of the status of your files* and create 
 - Merge the changes from `parent/master` to your local master branch (there may be a conflict - if so, resolve it).
 - Push the new changes to your remote called `my_repository`.
 
+# Complete. It appears that I've just copied everything from the participants
+# repo to my_repository.
+
 #### h. If you cannot get enough of git commands:
 checkout this tutorial/game: [https://github.com/Gazler/githug](https://github.com/Gazler/githug)
+
+# Oh, I think I've had quite enough.
 
 ## 3. Interactive Python
 
