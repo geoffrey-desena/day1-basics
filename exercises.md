@@ -17,7 +17,13 @@ using your favourite editor
 #### g. Make your script executable (x permission) 
 using the command ```chmod```. You should now be able to execute your script like this: ```./hello_world_benedikt.py```
 
+# 2026-03-16:
+# Complete up to this point. My python environment is all goofy, so I get an
+# environment error when I try to run it, but I successfully changed the permissions.
+
 In many real-life scenarios, you might be using a remote computing cluster. So lets get familiar with some important commands related to remote systems. We created an account for you on our *davinci* cluster (davinci.icm.uu.se). The username is *python*, the password will be provided by the teachers. Now, some other useful commands for you to try
+
+
 
 #### h. Login to the cluster using ```ssh```
 #### i. Add your (local) public key (```~/.ssh/id_rsa.pub```) to the remote system (```~/.ssh/authorized_keys```). 
@@ -28,6 +34,11 @@ Be aware that you share the same home directory with all the other course partic
 Create a python script that runs for a long time (e.g. using time.sleep python function). Execute your script inside a screen session, than detach and completely log out of *davinci*. Now, when you log into *davinci* again, your screen session (and the python script inside) should still be running. 
 #### l. If you cannot get enough of shell commands: 
 checkout this tutorial: [https://swcarpentry.github.io/shell-novice/](https://swcarpentry.github.io/shell-novice/)
+
+# 2026-03-16
+# I successfully logged in and copied my script to the cluster. I was able to run
+# it but again, not with the ./ command. If I call python first and then the
+# script, it runs just fine.
 
 ## 2. Working with git
 In this part, we want you to get familiar with the most common *git* commands and learn how to use them. Some of the following tasks require you to have a *Github* account. So, if you don't already have one, you can create on here: [http://github.com/join](http://github.com/join). 
